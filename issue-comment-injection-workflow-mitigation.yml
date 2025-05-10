@@ -14,6 +14,6 @@ jobs:
     steps: 
       - name: Checkout the repository 
         uses: actions/checkout@v4 
-      - name: Run bash command using comment body 
+      - name: Run bash command using comment bodyyyyy 
         run: | 
           echo "The comment body contains: $COMMENT_BODY"
